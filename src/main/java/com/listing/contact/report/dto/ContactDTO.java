@@ -1,0 +1,17 @@
+package com.listing.contact.report.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class ContactDTO {
+    private Long listingId;
+    private LocalDateTime contactDate;
+}
